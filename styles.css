@@ -37,10 +37,7 @@ img {
 .hobbies {
   display: flex;
   justify-content: space-around;
-  
-}
-.hobbies:hover{
-  transform: translate(50px 100px);
+
 }
 
 .center {
