@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
-    <!--  قم بربط هذه الصفحة  مع css -->
-    <!--  ربط google fonts -->
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#hi">هويّتي</a>
+        <a href="#hob">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -25,13 +25,13 @@
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
-      <h4>هواياتي المفضلة</h4>
+      <h1 id="hi">وسميه الهاجري</h1>
+      <h4 id="hob">هواياتي المفضلة</h4>
 
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>video games</li>
+        <li>cooking</li>
+        <li>trivia game</li>
       </ul>
 
       <a href="https://code.kw/">
@@ -39,7 +39,10 @@
       </a>
     </div>
     <!-------------------(الهوايات)------------------>
-    <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+   
+    <div class="hobbies"> 
+      <img src="./img/video game.jpg">
+      <img src="./img/cooking.jpg">
+      <img src="./img/trivia.png"></div>
   </body>
 </html>
